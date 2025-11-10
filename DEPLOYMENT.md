@@ -10,7 +10,7 @@
 
 1. **Authenticate with GitHub** (if not already done):
    ```bash
-   git config --global user.name "Your Name"
+   git config --global user.name "Sanjayb"
    git config --global user.email "your.email@example.com"
    ```
 
