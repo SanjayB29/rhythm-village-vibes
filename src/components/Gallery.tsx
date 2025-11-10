@@ -1,18 +1,20 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImg from "@/assets/hero-bg.jpg";
-import interiorImg from "@/assets/interior.jpg";
-import nightImg from "@/assets/night-ambience.jpg";
+import outdoorSeating1 from "@/assets/outdoor-seating-1.jpg";
+import outdoorSeating2 from "@/assets/outdoor-seating-2.jpg";
+import outdoorSeating3 from "@/assets/outdoor-seating-3.jpg";
+import nightLighting from "@/assets/night-lighting.jpg";
 import masalaTeaImg from "@/assets/masala-tea.jpg";
 import blueLagoonImg from "@/assets/blue-lagoon.jpg";
 import friedRiceImg from "@/assets/fried-rice.jpg";
 
 const Gallery = () => {
   const images = [
-    { src: heroImg, title: "Outdoor Ambience" },
-    { src: nightImg, title: "Evening Vibes" },
-    { src: interiorImg, title: "Cozy Interior" },
+    { src: outdoorSeating1, title: "Outdoor Seating" },
+    { src: outdoorSeating2, title: "Village Ambience" },
+    { src: outdoorSeating3, title: "Cozy Space" },
+    { src: nightLighting, title: "Night Vibes" },
     { src: masalaTeaImg, title: "Masala Tea" },
     { src: blueLagoonImg, title: "Blue Lagoon Mocktail" },
     { src: friedRiceImg, title: "Fried Rice" },

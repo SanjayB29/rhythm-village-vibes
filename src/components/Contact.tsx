@@ -142,12 +142,13 @@ const Contact = () => {
             <div className="rounded-lg overflow-hidden shadow-lg h-64">
               <iframe
                 title="Rhythm Freezy House Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.4!2d78.9892!3d12.9611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU3JzQwLjAiTiA3OMKwNTknMjEuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.6838092623402!2d79.23847433207624!3d12.960290447246047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad482dfde071d5%3A0x4dfe5d892d87605!2sRhythm%20Freezy%20House!5e0!3m2!1sen!2sin!4v1762789299169!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
